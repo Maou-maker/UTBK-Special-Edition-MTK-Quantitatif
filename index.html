@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penalaran Kuantitatif</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+        .explanation {
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>UTBK Practice Test</h1>
+    <h2>Total Soal: 20</h2>
+    <h2>Simulation Exam by ismafuad</h2>
+    <h3>Penalaran matematika</h3>
+    <h3>soal 1 - 10</h3>
+    <form id="quizForm">
+
+        <div class="question">
+            <p><b>1. Perhatikan ilustrasi berikut untuk menjawab soal nomor 1-3!</b></p>
+            <p>Mas Nanggi membawa tiga buah barang, yaitu A, B, dan C yang beratnya berturut-turut   1.450 g, 0,5 kg, dan 3,2 kg ke WahAda Cargo untuk dikirimkan ke Cimahi. Berikut ini tabel yang menunjukkan biaya pengiriman barang.</p>
+            <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/pm%201a.png" alt="Tabel Biaya Pengiriman">
+            <p>Jika Mas Nanggi ingin berhemat, yang paling menguntungkan bagi Mas Nanggi di antara pilihan berikut ini adalah …</p>
+            <label><input type="radio" name="q1" value="a"> A. Pengiriman barang A, B, dan C masing-masing terpisah.</label><br>
+            <label><input type="radio" name="q1" value="b"> B. Pengiriman barang A dan B digabung, sedangkan barang C terpisah.</label><br>
+            <label><input type="radio" name="q1" value="c"> C. Pengiriman barang A dan C digabung, sedangkan barang B terpisah.</label><br>
+            <label><input type="radio" name="q1" value="d"> D. Pengiriman barang B dan C digabung, sedangkan barang A terpisah.</label><br>
+            <label><input type="radio" name="q1" value="e"> E. Pengiriman barang A, B, dan C digabung.</label><br>
+        </div>
+
+        <div class="question">
+            <p>2. Diketahui terdapat penambahan biaya pengemasan sebesar Rp3.000,00 untuk setiap pengiriman. Jika Mas Nanggi ingin mengirim dua barang sekaligus dan satu barang terpisah, biaya termurah yang dikeluarkan Anggun adalah..</p>
+            <label><input type="radio" name="q2" value="a"> A. Rp44.650,00</label><br>
+            <label><input type="radio" name="q2" value="b"> B. Rp43.750,00</label><br>
+            <label><input type="radio" name="q2" value="c"> C. Rp37.400,00</label><br>
+            <label><input type="radio" name="q2" value="d"> D. Rp32.500,00</label><br>
+            <label><input type="radio" name="q2" value="e"> E. Rp20.150,00</label><br>
+        </div>
+
+        <div class="question">
+            <p>3. Jika terdapat penambahan biaya pengemasan sebesar Rp3.000,00 untuk setiap pengiriman, pilihan berikut yang paling tidak menguntungkan bagi Mas Nanggi adalah …</p>
+            <label><input type="radio" name="q3" value="a"> A. Pengiriman barang A, B, dan C digabung</label><br>
+            <label><input type="radio" name="q3" value="b"> B. Pengiriman barang A, B, dan C masing-masing terpisah.</label><br>
+            <label><input type="radio" name="q3" value="c"> C. Pengiriman barang A dan C digabung, sedangkan barang B terpisah.</label><br>
+            <label><input type="radio" name="q3" value="d"> D. Pengiriman barang A dan B digabung, sedangkan barang C terpisah.</label><br>
+            <label><input type="radio" name="q3" value="e"> E. Pengiriman barang B dan C digabung, sedangkan barang A terpisah.</label><br>
+        </div>
+
+        <div class="question">
+            <p>4.  Pajak Penghasilan (PPh) berdasarkan UU PPh didefinisikan sebagai pajak yang dikenakan kepada orang pribadi atau badan atas penghasilan yang diperoleh dalam tahun pajak.</p>
+            <p>Untuk Penghasilan Tidak Kena Pajak (PTKP), karyawan yang memiliki status belum menikah dan tidak memiliki tanggungan adalah Rp54.000.000,00 per tahun.</p>
+            <p>PPh termasuk ke dalam pajak progresif sehingga tarif pajak yang akan makin naik sesuai dengan naiknya dasar pengenaan pajak. Diketahui perhitungan tarif PPh berdasarkan pasal 21 sesuai UU PPh didasari oleh Penghasilan Kena Pajak (PKP) dan disajikan dalam tabel berikut.</p>
+            <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/pm%206a.png" alt="Tabel Pajak PPh">
+            <p>Sebagai contoh, untuk penghasilan Vira setelah dikurangi PTKP adalah Rp300.000.000,00 per tahun, maka dikenakan tarif pajak sampai lapis ketiga, yaitu 25%. Pada tarif lapis pertama, Rp60.000.000,00 pertama dikenakan tarif pajak 5%. Kemudian, pada tarif lapis kedua, Rp190.000.000,00 berikutnya (dari 60 juta sampai 250 juta) dikenakan tarif pajak 15%. Selanjutnya, pada tarif lapis terakhir, sisa Rp50.000,000 dikenakan tarif pajak 25%.</p>
+            <p>Yunisa Cinta adalah seorang karyawan tetap di suatu perusahaan dengan status belum menikah dan tidak memiliki tanggungan dengan penghasilan netto sebesar Rp42.500.000,00 per bulan.</p>
+            <p>Persentase tarif PPh progresif yang dikenakan kepada Nisa adalah sampai ….</p>
+            <label><input type="radio" name="q4" value="a"> A. 5%</label><br>
+            <label><input type="radio" name="q4" value="b"> B. 15%</label><br>
+            <label><input type="radio" name="q4" value="c"> C. 25%</label><br>
+            <label><input type="radio" name="q4" value="d"> D. 30%</label><br>
+            <label><input type="radio" name="q4" value="e"> E. 35%</label><br>
+        </div>
+
+        <div class="question">
+            <p>5. Perhatikan ilustrasi berikut!</p>
+            <p>Gedung Teater</p>
+            <p>Dalam suatu gedung teater di Provinsi Suka-Suka terdapat 11 baris kursi. Baris pertama berisi 10 kursi, baris kedua berisi 15 kursi, baris ketiga berisi 17 kursi, baris keempat berisi 22 kursi, baris ke lima berisi 24 kursi, dan seterusnya mengikuti pola yang sama.</p>
+            <p>Berdasarkan informasi tersebut, banyaknya kursi pada baris kedua dari belakang adalah … kursi.</p>
+            <label><input type="radio" name="q5" value="a"> A. 31</label><br>
+            <label><input type="radio" name="q5" value="b"> B. 36</label><br>
+            <label><input type="radio" name="q5" value="c"> C. 38</label><br>
+            <label><input type="radio" name="q5" value="d"> D. 43</label><br>
+            <label><input type="radio" name="q5" value="e"> E. 45</label><br>
+        </div>
+
+        <div class="question">
+            <p>6. Perhatikan ilustrasi berikut!</p>
+            <p>Gedung Teater</p>
+            <p>Dalam suatu gedung teater di Provinsi Suka-Suka terdapat 11 baris kursi. Baris pertama berisi 10 kursi, baris kedua berisi 15 kursi, baris ketiga berisi 17 kursi, baris keempat berisi 22 kursi, baris ke lima berisi 24 kursi, dan seterusnya mengikuti pola yang sama.</p>
+            <p>Sekelompok siswa SMA menonton pertunjukan di gedung teater tersebut dan memilih duduk di dua baris paling akhir.</p>
+            <p>Apabila seluruh siswa tersebut duduk tepat di satu kursi dan tidak ada kursi yang kosong pada dua baris paling akhir, maka banyaknya siswa SMA yang menonton pertunjukan tersebut adalah … siswa.</p>
+            <label><input type="radio" name="q6" value="a"> A. 71</label><br>
+            <label><input type="radio" name="q6" value="b"> B. 75</label><br>
+            <label><input type="radio" name="q6" value="c"> C. 81</label><br>
+            <label><input type="radio" name="q6" value="d"> D. 85</label><br>
+            <label><input type="radio" name="q6" value="e"> E. 88</label><br>
+        </div>
+
+        <div class="question">
+            <p>7. Perhatikan ilustrasi berikut!</p>
+            <p>Dua orang karyawan swasta mendaftar sebagai peserta asuransi kesehatan dengan besar premi yang sama. Guna membayar premi asuransi tersebut, karyawan A yang memiliki gaji Rp6.000.000,00 akan dikenakan potongan gaji sebesar 4%, sedangkan karyawan B dikenakan potongan gaji sebesar 6%.</p>
+            <p>Berdasarkan informasi tersebut, besar gaji karyawan B adalah ….</p>
+            <label><input type="radio" name="q7" value="a"> A. Rp5.000.000,00</label><br>
+            <label><input type="radio" name="q7" value="b"> B. Rp5.500.000,00</label><br>
+            <label><input type="radio" name="q7" value="c"> C. Rp4.500.000,00</label><br>
+            <label><input type="radio" name="q7" value="d"> D. Rp4.000.000,00</label><br>
+            <label><input type="radio" name="q7" value="e"> E. Rp3.500.000,00</label><br>
+        </div>
+
+        <div class="question">
+            <p>8. Barisan 16, p, 4, q, ..... merupakan barisan aritmetika. Jumlah suku ke-6 dan suku ke-8 barisan tersebut sama dengan hasil kali suku ke-4 yakni....</p>
+            <label><input type="radio" name="q8" value="a"> A. 2</label><br>
+            <label><input type="radio" name="q8" value="b"> B. 4</label><br>
+            <label><input type="radio" name="q8" value="c"> C. 8</label><br>
+            <label><input type="radio" name="q8" value="d"> D. 14</label><br>
+            <label><input type="radio" name="q8" value="e"> E. 20</label><br>
+        </div>
+
+        <div class="question">
+            <p>9. </p>
+            <p>Anggun membawa tiga buah barang, yaitu A, B, dan C yang beratnya berturut-turut   1.450 g, 0,5 kg, dan 3,2 kg ke WahAda Cargo untuk dikirimkan ke Cimahi. Berikut ini tabel yang menunjukkan biaya pengiriman barang.</p>
+            <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/pm%201a.png" alt="Tabel Biaya Pengiriman">
+            <p>Jika Anggun ingin berhemat, yang paling menguntungkan bagi Anggun di antara pilihan berikut ini adalah …</p>
+            <label><input type="radio" name="q9" value="a"> A. Pengiriman barang A, B, dan C masing-masing terpisah.</label><br>
+            <label><input type="radio" name="q9" value="b"> B. Pengiriman barang A dan B digabung, sedangkan barang C terpisah.</label><br>
+            <label><input type="radio" name="q9" value="c"> C. Pengiriman barang A dan C digabung, sedangkan barang B terpisah.</label><br>
+            <label><input type="radio" name="q9" value="d"> D. Pengiriman barang B dan C digabung, sedangkan barang A terpisah.</label><br>
+            <label><input type="radio" name="q9" value="e"> E. Pengiriman barang A, B, dan C digabung.</label><br>
+        </div>
+
+        <div class="question">
+            <p>10. Diketahui diagram Venn sebagai berikut:</p>
+            <img src="https://akcdn.detik.net.id/community/media/visual/2024/04/26/soal-utbk-snbt-2024-penalaran-matematika_11.jpeg?w=350" alt="Diagram">
+            <p>Pasangan himpunan yang memiliki diagram venn seperti di atas adalah.....</p>
+            <label><input type="radio" name="q10" value="a"> A. [A = Himpunan hewan bertulang belakang ][B = Himpunan hewan yang dapat terbang ]</label><br>
+            <label><input type="radio" name="q10" value="b"> B. [A = Himpunan bilangan bulat positif ][B = Himpunan bilangan bulat negatif ]</label><br>
+            <label><input type="radio" name="q10" value="c"> C. [A = Himpunan bilangan prima ][B = Himpunan bilangan genap ]</label><br>
+            <label><input type="radio" name="q10" value="d"> D. [A = Himpunan bayi ][B = Himpunan orang dewasa ]</label><br>
+            <label><input type="radio" name="q10" value="e"> E. [A = Himpunan ibu kota provinsi ][B = Himpunan negara-negara ASEAN ]</label><br>
+        </div>
+
+        <h1>Penalaran quantitatif</h1>
+        <h2>soal 11 - 20</h2>
+        <div class="question">
+            <p>11.KPK  dari dua buah bilangan prima x dan y adalah 14, dengan x > y. Nilai dari 3x-y adalah…</p>
+            <label><input type="radio" name="q11" value="a"> A. 19</label><br>
+            <label><input type="radio" name="q11" value="b"> B. 13</label><br>
+            <label><input type="radio" name="q11" value="c"> C. -1</label><br>
+            <label><input type="radio" name="q11" value="d"> D. 21</label><br>
+            <label><input type="radio" name="q11" value="e"> E. 23</label><br>
+        </div>
+
+        <div class="question">
+            <p>12. Manakah pernyataan yang benar jika |2x – 5| <3  dengan x adalah bilangan bulat?</p>
+            <p>1. HP = {1,2,3,4}</p>
+            <p>2. HP ={x|1 < x < 4, x∈Ζ}</p>
+            <p>3. Jumlah seluruh nilai x adalah 10</p>
+            <p>4. Hasil kali seluruh nilai x adalah 6</p>
+            <label><input type="radio" name="q12" value="a"> A. (1), (2) dan (3) SAJA yang benar</label><br>
+            <label><input type="radio" name="q12" value="b"> B. (1) dan (3) SAJA yang benar</label><br>
+            <label><input type="radio" name="q12" value="c"> C. (2) dan (4) SAJA yang benar</label><br>
+            <label><input type="radio" name="q12" value="d"> D. Hanya (4) SAJA yang benar</label><br>
+            <label><input type="radio" name="q12" value="e"> E. Semua pilihan jawaban benar</label><br>
+        </div>
+
+        <div class="question">
+            <p>13. Sebuah kereta menempuh jarak Surabaya ke Bandung dengan kecepatan 50 km/jam selama 10 jam. Jika jarak tersebut ingin ditempuh dalam waktu 8 jam, kecepatan kereta tersebut menjadi.....</p>
+            <label><input type="radio" name="q13" value="a"> A. 60,25 km/jam</label><br>
+            <label><input type="radio" name="q13" value="b"> B. 62,50 km/jam</label><br>
+            <label><input type="radio" name="q13" value="c"> C. 65,50 km/jam</label><br>
+            <label><input type="radio" name="q13" value="d"> D. 70,25 km/jam</label><br>
+            <label><input type="radio" name="q13" value="e"> E. 73,25 km/jam</label><br>
+        </div>
+
+        <div class="question">
+            <p>14. Perbandingan berat badan 4 orang siswa adalah sebagai berikut, P adalah 3 kg lebih berat dari S; Q adalah 6 kg lebih ringan dari R; S adalah 2 kg lebih berat dibandingkan dengan Q. Jika diketahui berat badan S = 40kg maka pernyataan berikut yang paling tepat adalah....</p>
+            <label><input type="radio" name="q14" value="a"> A. Berat badan P > R</label><br>
+            <label><input type="radio" name="q14" value="b"> B. Berat badan S > R</label><br>
+            <label><input type="radio" name="q14" value="c"> C. Berat badan Q > P</label><br>
+            <label><input type="radio" name="q14" value="d"> D. Berat badan R > P</label><br>
+            <label><input type="radio" name="q14" value="e"> E. Berat badan S > P</label><br>
+        </div>
+
+        <div class="question">
+            <p>15. A telah mengikuti empat kali tes matematika dengan nilainya berturut turut adalah 2, 3, 5, dan 8. A harus mengikuti dua tes lagi. Nilai setiap tes berupa bilangan bulat dengan rentang 1 sampai 10. Jika salah satu dari dua nilai tes tersebut merupakan nilai sempurna dan jangkauan 6 tes tersebut sama dengan 2 kali mediannya, maka nilai tes yang lainnya adalah.....</p>
+            <label><input type="radio" name="q15" value="a"> A. 5</label><br>
+            <label><input type="radio" name="q15" value="b"> B. 4</label><br>
+            <label><input type="radio" name="q15" value="c"> C. 3</label><br>
+            <label><input type="radio" name="q15" value="d"> D. 2</label><br>
+            <label><input type="radio" name="q15" value="e"> E. 1</label><br>
+        </div>
+
+        <div class="question">
+            <p>16. Perhatikan matriks A dan B berikut!</p>
+            <img src="https://akcdn.detik.net.id/community/media/visual/2024/04/24/soal-pengetahuan-kuantitatif-snbt-2024-2.png?w=590"alt="Matriks">
+            <p>Jika diketahui matriks A dan B seperti digambar. Manakah hubungan P dan Q jika P = Det (AxB) dan Q = 13</p>
+
+            <label><input type="radio" name="q16" value="a"> A. P > Q</label><br>
+            <label><input type="radio" name="q16" value="b"> B. Q > P</label><br>
+            <label><input type="radio" name="q16" value="c"> C. P = Q</label><br>
+            <label><input type="radio" name="q16" value="d"> D. informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas</label><br>
+            <label><input type="radio" name="q16" value="e"> E. tidak ada jawabannya</label><br>
+        </div>
+
+        <div class="question">
+            <p>17. Segelas susu dibuat dengan mencampurkan 2 sendok makan bubuk susu dan x sendok makan gula. Perbandingan banyaknya bubuk susu dan gula dalam segelas susu adalah 2:3. Jika P=x dan Q=9, manakah hubungan yang benar antara kuantitas P dan Q berdasarkan informasi yang diberikan?</p>
+            <label><input type="radio" name="q16" value="a"> A. P > Q</label><br>
+            <label><input type="radio" name="q16" value="b"> B. Q > P</label><br>
+            <label><input type="radio" name="q16" value="c"> C. P = Q</label><br>
+            <label><input type="radio" name="q16" value="d"> D. informasi yang diberikan tidak cukup untuk memutuskan salah satu dari tiga pilihan di atas</label><br>
+            <label><input type="radio" name="q16" value="e"> E. tidak ada jawabannya</label><br>
+        </div>
+
+        <div class="question">
+            <p>18. Nilai minimum fungsi kuadrat f adalah -8 dan grafik fungsi tersebut melalui titik (-1, 0) dan titik (3, 0). Grafik fungsi tersebut juga melalui titik (4, b) dengan b = ....</p>
+            <label><input type="radio" name="q18" value="a"> A. 42</label><br>
+            <label><input type="radio" name="q18" value="b"> B. 21</label><br>
+            <label><input type="radio" name="q18" value="c"> C. 0</label><br>
+            <label><input type="radio" name="q18" value="d"> D. 5</label><br>
+            <label><input type="radio" name="q18" value="e"> E. 10</label><br>
+        </div>
+
+        <div class="question">
+            <p>19. Tiga bilangan asli berbeda yang kurang dari 10 dipilih sekaligus secara acak. Berapakah banyaknya dari empat pernyataan berikut yang bernilai benar berdasarkan informasi di dibawah ini?</p>
+            <p>1. Peluang semua bilangan yang terpilih prima kurang dari 1/20.</p>
+            <p>2. Peluang semua bilangan yang terpilih genap kurang dari 1/25.</p>
+            <p>3. Peluang semua bilangan yang terpilih ganjil lebih dari 1/7.</p>
+            <p>4. Peluang jumlah semua bilangan yang terpilih kurang dari 8 adalah 1/42.</p>
+            <label><input type="radio" name="q18" value="a"> A. Rp44.650,00</label><br>
+            <label><input type="radio" name="q18" value="b"> B. Rp43.750,00</label><br>
+            <label><input type="radio" name="q18" value="c"> C. Rp37.400,00</label><br>
+            <label><input type="radio" name="q18" value="d"> D. Rp32.500,00</label><br>
+            <label><input type="radio" name="q18" value="e"> E. Rp20.150,00</label><br>
+        </div>
+
+        <div class="question">
+            <p>20. Jika x = 2y, y = 3z, dan xyz = 3888 maka...</p>
+            <label><input type="radio" name="q20" value="a"> A. x < y</label><br>
+            <label><input type="radio" name="q20" value="b"> B. y < z</label><br>
+            <label><input type="radio" name="q20" value="c"> C. y < z</label><br>
+            <label><input type="radio" name="q20" value="d"> D. y < x</label><br>
+            <label><input type="radio" name="q20" value="e"> E. x = y</label><br>
+        </div>
+
+        <button type="button" onclick="checkAnswers()">lihat jawaban</button>
+    </form>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        const answers = {
+            q1: 'd',
+            q2: 'c',
+            q3: 'b',
+            q4: 'c',
+            q5: 'd',
+            q6: 'e',
+            q7: 'd',
+            q8: 'e',
+            q9: 'b',
+            q10: 'a',
+            q11: 'a',
+            q12: 'c',
+            q13: 'b',
+            q14: 'd',
+            q15: 'c',
+            q16: 'b',
+            q17: 'b',
+            q18: 'e',
+            q19: 'c',
+            q20: 'd'
+
+        };
+
+        const explanations = {
+            q1: `
+                <b>Pembahasan: soal 1</b><br>
+                Pilihan jawaban B: Pengiriman barang A dan B digabung, sedangkan barang C terpisah.<br>
+                Karena barang A digabung dengan barang B, maka beratnya menjadi 1.450g + 500g = 1.950g. Kemudian total biaya yang dikeluarkan adalah sebagai berikut.<br>
+                Total biaya<br>
+                = biaya barang A + biaya barang B + biaya barang C<br>
+                = 13.250 + 13.250<br>
+                = 26.500<br>
+                <p>Didapat bahwa biaya pengiriman pada pilihan B adalah Rp26.500,00.</p>
+                Pilihan jawaban C: Pengiriman barang A dan C digabung, sedangkan barang B terpisah.<br>
+                Karena barang A digabung dengan barang C, maka beratnya menjadi 1.450g + 3.200g = 4.650g. Kemudian, total biaya yang dikeluarkan adalah sebagai berikut.<br>
+                Total biaya<br>
+                = biaya barang A dan C + biaya barang B<br>
+                = 24.500 + 6.900<br>
+                = 31.400<br>
+                Didapat bahwa biaya pengiriman pada pilihan C adalah Rp31.400,00. Jadi, jawaban yang benar adalah B.
+            `,
+            q2: `
+                <b>Pembahasan: soal 2</b><br>
+                Diketahui bahwa barang A seberat 1.450 g barang B seberat 0,5 kg = 500 g dan barang C seberat 3,2 g = 3.200 g<br>
+                <p>Diketahui pula terdapat penambahan biaya pengemasan sebesar Rp3.000,00 untuk setiap pengiriman.</p>
+                <p>Untuk mengetahui total biaya termurah yang dikeluarkan oleh Mas Nanggi, akan diperiksa biaya yang dikeluarkan untuk setiap kemungkinan berikut</p>
+                <p>Kemungkinan 1: Pengiriman barang A dan B digabung, sedangkan barang C terpisah.</p>
+                <p>Karena barang A digabung dengan barang B, maka beratnya menjadi 1.450g + 500g = 1.950g. Total biaya yang dikeluarkan adalah sebagai berikut.</p>
+                Total biaya<br>
+                = Biaya barang A dan B + biaya barang C + 2 x biaya pengemasan<br>
+                = 13.250 + 13.250 + 3.000 x 2<br>
+                = 26.500 + 6.000<br>
+                = 32.500<br>
+                <p>Didapat bahwa biaya yang dikeluarkan Mas Nanggi pada kemungkinan 2 adalah Rp 32.500,00.</p>
+                <p>Berdasarkan ketiga kemungkinan tersebut, biaya termurah yang dikeluarkan Mas Nanggi adalah Rp32.500,00.</p>
+                <p>Jadi, jawaban yang benar adalah D.</p>
+            `,
+            q3: `
+                <b>Pembahasan: soal 3</b><br>
+                Pengiriman barang B dan C digabung, sedangkan barang A terpisah.<br>
+                <p>Karena barang B digabung dengan barang C, maka beratnya menjadi 500g + 3.200g = 3.700g.  Kemudian, total biaya yang dikeluarkan adalah sebagai berikut.</p>
+                Total biaya<br>
+                = biaya barang B dan C + biaya barang A + 2 x biaya pengemasan<br>
+                = 24.500 + 13.250 + 3000 x 2<br>
+                = 37.750 + 6.000<br>
+                = 43.750<br>
+                <p>Didapat bahwa biaya pengiriman pada pilihan E adalah Rp43.750,00.</p>
+                Berdasarkan perhitungan tersebut, biaya yang paling mahal adalah Rp43.750,00.<br>
+                <p>Dengan demikian, pilihan yang paling tidak menguntungkan bagi Mas Nanggi adalah pengiriman barang B dan C digabung, sedangkan barang A terpisah.</p>
+                Jadi, jawaban yang benar adalah E.<br>
+            `,
+            q4: `
+                <b>Pembahasan: soal 4</b><br>
+                <p>Misalkan penghasilan Yunisa Cinta selama 1 tahun adalah P, maka besarnya dalam setahun yaitu sebagai berikut.</p>
+                P = Rp 42.500.000,00 x 12<br>
+                P = Rp 510.000.000,00<br>
+                <p>Misalkan penghasilan kena pajak Nisa sebesar pm 6b, maka karena Yunisa Cinta belum menikah dan tidak memiliki tanggungan, PTKPnya sebesar Rp54.000.000,00, sehingga besarnya penghasilan Nisa yang kena pajak yaitu sebagai berikut.</p>
+                <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/pm%206b-1.png" alt="Diagram"><p>= P – 54.000.000,00</p>
+                <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/pm%206b-1.png" alt="Diagram"><p>= 510.000.000, 00 – 54.000.000,00</p>
+                <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/pm%206b-1.png" alt="Diagram"><p>= = 456.000.000,00</p>
+                <p>Dengan membandingkan pm 6b-1 dengan tabel yang diberikan dalam soal, maka penghasilan kena pajak Yunisa Cinta akan dikenakan tarif progresif sebesar 25%.</p>
+                Jadi, jawaban yang benar adalah C.<br>
+            `,
+            q5: `
+                <b>Pembahasan: soal 5</b><br>
+                Pola susunan kursi pada gedung teater tersebut dapat diuraikan sebagai berikut.<br>
+                <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/penalaran%20matematika%201a.png" alt="Gedung Teater">
+                <p>Berdasarkan pola tersebut, dapat disimpulkan bahwa banyaknya kursi yang berada pada baris kedua dari belakang atau baris kesepuluh adalah 43 kursi.</p><br>
+                Jadi, jawaban yang tepat adalah D.<br>
+            `,
+            q6: `
+                <b>Pembahasan: soal 6</b><br>
+                <p>Diketahui seluruh siswa duduk tepat di satu kursi dan tidak ada kursi yang kosong pada dua baris paling akhir. Artinya, banyaknya siswa SMA yang menonton pertunjukan tersebut sama dengan banyaknya kursi pada dua baris paling akhir</p>
+                <p>Pola susunan kursi pada gedung teater tersebut dapat diuraikan sebagai berikut.</p>
+                <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/penalaran%20matematika%201a.png" alt="Gedung Teater">
+                <p>Berdasarkan pola tersebut, dapat disimpulkan bahwa jumlah kursi yang terdapat pada dua baris terakhir, yaitu baris ke-10 dan ke-11 adalah 43 dan 45. Oleh karena itu, total banyaknya kursi yang terdapat pada dua baris paling akhir tersebut adalah 43 + 45 = 88 kursi</p>
+                <p>Dengan demikian, banyaknya siswa SMA yang menonton pertunjukan tersebut adalah 88 siswa.</p>
+                Jadi, jawaban yang tepat adalah E.<br>
+            `,
+            q7: `
+                <b>Pembahasan: soal 7</b><br>
+                Misalkan X menyatakan besar gaji karyawan B.<br>
+                Diketahui premi asuransi karyawan A sama dengan karyawan B. Oleh karena itu, didapat perhitungan sebagai berikut.<br>
+                <p>Premi asuransi karyawan A = Premi asuransi karyawan B</p>
+                <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/penalaran%20matematika%205a.png" alt="Asuransi">
+                Dengan demikian, besarnya gaji karyawan B adalah Rp4.000.000,00<br>
+                Jadi, jawaban yang tepat adalah D.<br>
+            `,
+            q8: `
+                <b>Pembahasan: soal 8</b><br>
+                Barisan aritmetika :<br>
+                16, p, 4, q, .....<br>
+                U3 = 4<br>
+                a + (n-1)b = 4<br>
+                16 + 2b = 4<br>
+                2b = -12<br>
+                b = -6<br>
+                <p>Maka :</p>
+                U6 + U8 = x . U4<br>
+                a + 5b + a + 7b = x(a + 3b)<br>
+                2a + 12b = x(a + 3b)<br>
+                2(16) + 12(-6) = x(16 + 3(-6))<br>
+                32-72 = -2x<br>
+                -40 = -2x<br>
+                -40/-2 = x<br>
+                20 = x<br>
+            `,
+            q9: `
+                <b>Pembahasan: soal 9</b><br>
+                <p>Nilai x = Dari data angka penanam bunga melati menjadi minimum yakni 500 orang. Sehingga jumlah petani yang hanya menanam bunga mawar = 900-500 = 400</p>
+                Nilai y = 900 + 500 - 1000 = 400<br>
+                Jadi, x + y = 500 + 400 = 900<br>
+            `,
+            q10: `
+                <b>Pembahasan: soal 10</b><br>
+                A = Himpunan hewan bertulang belakang<br>
+                B = Himpunan hewan yang dapat terbang<br>
+                Pembahasan:<br>
+                Pasangan himpunan yang tepat adalah seluruh elemen dalam himpunan B terdapat pada himpunan A, jadi yang sesuai adalah jawaban A.<br>
+            `,
+            q11: `
+                <b>Pembahasan: soal 11</b><br>
+                <p>KPK dari 2 bilangan x dan y adalah 14.</p>
+                Ketika kita jabarkan 14=2×7, maka 2 bilangan tersebut adalah  x=7 dan y=2.<br>
+                Jadi, 3x – y = 37 – 2 = 21 – 2= 19<br>
+            `,
+            q12: `
+                <b>Pembahasan: soal 12</b><br>
+                <p>1. Lakukan dengan subtitusi HP ={1,2,3,4}</p>
+                x=1 masukkan ke persamaan |2x – 5| <3
+                |2 (1) – 5| <3<br>
+                3 < 3 maka salah pernyataan 1) jadi x = 1 bukan termasuk HPnya<br>
+                x = 2 masukkan ke persamaan |2(x) – 5| <3<br>
+                |2 (2) – 5| <3<br>
+                1 < 3 maka benar pernyataan 1) jadi x = 2 termasuk HPnya<br>
+                x = 3 masukkan ke persamaan |2(x) – 5| <3<br>
+                |2 (3) – 5| <3<br>
+                1 < 3 maka benar pernyataan 1) jadi x = 3 termasuk HPnya<br>
+                x = 4 masukkan ke persamaan |2(x) – 5| <3<br>
+                |2 (4) – 5| <3<br>
+                3 < 3 maka benar pernyataan 1) jadi x = 4 bukan termasuk HPnya<br>
+                Jadi pernyataan 1) salah<br>
+                <p>2. Dapat dilihat dari penjelasan pernyataan 1) bahwa yang termasuk HPnya adalah {2,3} maka HP = {x|1 < x < 4, x∈Ζ }</p>
+                Jadi pernyataan 2 benar.<br>
+                <p>3. Pernyataan 3) salah karena 2 + 3 = 5 </p>
+                <p>4. Pernyataan 4) benar karena 2 × 3 = 6</p>
+                <p>Jadi jawaban yang tepat yaitu (2) dan (4) saja yang benar</p>
+            `,
+            q13: `
+                <b>Pembahasan: soal 13</b><br>
+                <p>Diketahui: Kecepatan= 50 km/jam dan Waktu= 10 jam</p>
+                Maka: Jarak= 50x10 = 500 km<br>
+                Kecepatan jika ingin menempuh jarak tersebut selama 8 jam:<br>
+                Kecepatan = jarak/waktu = 500/8 = 62,5 km/jam<br>
+            `,
+            q14: `
+                <b>Pembahasan: soal 14</b><br>
+                Diketahui: S = 40kg<br>
+                P = 3 + S = 3 + 40 = 43kg<br>
+                S = 2 + Q maka Q = S - 2 = 40-2 = 38kg<br>
+                Q = R - 6 maka R = Q + 6 = 38 + 6 = 44 kg.<br>
+                <p>Maka :</p>
+                44 > 43 > 40 > 38 atau R > P > S > Q<br>
+                Jawaban yang paling benar adalah R > P<br>
+            `,
+            q15: `
+                <b>Pembahasan: soal 15</b><br>
+                Nilai 4 tes pertama berturut-turut 2, 3, 5, dan 8
+                Misalkan, A mendapat nilai sempurna di tes kelima, yaitu 10, maka:<br>
+                J = 2 x median<br>
+                10-2 = 2 x median<br>
+                8 = 2 x median<br>
+                median = 8/2 = 4<br>
+                <p>Jika nilai tes yang lain adalah x, sehingga data yang diperoleh adalah: 2, 3, 5, x, 8, 10</p>
+                Bila median ada diurutan data ketiga dan keempat, maka:
+                4 = 5+x/2<br>
+                8 = 5 + x<br>
+                8-5 = x<br>
+                3 = x<br>
+            `,
+            q16: `
+                <b>Pembahasan: soal 16</b><br>
+                det(AxB) = det(A) x det(B)<br>
+                det(AxB) = (4-3) x (-4-0)<br>
+                det(AxB) = 1 x (-4) = -4<br>
+                P = -4 da Q = 13. Sehingga Q > P<br>
+            `,
+            q17: `
+                <b>Pembahasan: soal 17</b><br>
+                Susu : gula = 2 : 3<br>
+                Jika banyaknya susu 2 sendok maka banyaknya gula (x):<br>
+                2/3 = 2/x<br>
+                2x = 6<br>
+                x = 3 (P)<br>
+                Jadi, Q > P<br>
+            `,
+            q18: `
+                <b>Pembahasan: soal 18</b><br>
+                y=a(x+1)(x-3)<br>
+                Absis titik minimum adalah 1.<br>
+                Diperoleh a=2.<br>
+                Persamaannya adalah y=2(x+1)(x-3).<br>
+                Jika x=4, maka y=10.<br>
+            `,
+            q19: `
+                <b>Pembahasan: soal 19</b><br>
+                <p>Sorry guys, Pembahasannya lupa gua copy :v</p>
+                cari aja di internet. gua lupa gak di copy savenya<br>
+                <img src="data:image/jpeg;base64,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"alt="maaf">
+                <img src="data:image/jpeg;base64,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"alt="waduh">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY0tXRgvK7j1unzD46C14MZEhEvd_IdtYOXA&s"alt="aku serius">
+                <img src="data:image/jpeg;base64,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"alt="sorry guys">
+                `,
+            q20: `
+                <b>Pembahasan: soal 20</b><br>
+                x = 2y<br>
+                y = 3z<br>
+                2y = 6z<br>
+                Diperoleh x = 2y = 6z<br>
+                Diketahui xyz = 3888, jadi ketiganya positif<br>
+                Karena x = 2y = 6z maka pastilah x > y > z atau berlaku juga y < x<br>
+            `
+
+        };
+
+        function checkAnswers() {
+            let output = "<h2>Hasil:</h2>";
+            const form = document.getElementById('quizForm');
+            const formData = new FormData(form);
+
+            for (const [key, correctAnswer] of Object.entries(answers)) {
+                const userAnswer = formData.get(key);
+                if (userAnswer) {
+                    if (userAnswer === correctAnswer) {
+                        output += `<p class='correct'>Soal ${key.slice(1)}: Benar!</p>`;
+                    } else {
+                        output += `<p class='incorrect'>Soal ${key.slice(1)}: Salah! Jawaban benar adalah ${correctAnswer.toUpperCase()}.</p>`;
+                    }
+                    output += `<div class='explanation'>${explanations[key]}</div>`;
+                } else {
+                    output += `<p class='incorrect'>Soal ${key.slice(1)}: Tidak dijawab!</p>`;
+                    output += `<div class='explanation'>${explanations[key]}</div>`;
+                }
+            }
+
+            document.getElementById('result').innerHTML = output;
+        }
+    </script>
+</body>
+</html>
